@@ -1,0 +1,92 @@
+.desktop{
+  /* Desktop - 1 */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #420606;
+
+}
+.rectangle1{
+/* Rectangle 1 */
+
+position: absolute;
+width: 581px;
+height: 634px;
+left: calc(50% - 581px/2 - 0.5px);
+top: 206px;
+
+background: #5CBD94;
+
+}
+h2{
+  /* Bienvenue,ADMIN */
+
+position: absolute;
+width: 596px;
+height: 38px;
+left: 427px;
+top: 103px;
+
+font-family: 'Island Moments';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+text-align: center;
+
+color: #3695A2;
+
+
+}
+
+.rectangle{
+  /* Rectangle 1 */
+
+position: absolute;
+width: 581px;
+height: 199px;
+left: calc(50% - 581px/2 - 0.5px);
+top: 206px;
+
+background: #5CBD94;
+
+}
+.rectangle3{
+/* Rectangle 1 */
+
+position: absolute;
+width: 261px;
+height: 353px;
+left: calc(50% - 261px/2 + 0.5px);
+top: 206px;
+
+background: #5CBD94;
+
+}
+.rectangle4{
+/* Rectangle 1 */
+
+position: absolute;
+width: 397px;
+height: 437px;
+left: calc(50% - 397px/2 + 10.5px);
+top: 206px;
+
+background: #5CBD94;
+
+}
+
+.rectangle9{
+  /* Rectangle 1 */
+
+position: absolute;
+width: 645px;
+height: 194px;
+left: calc(50% - 645px/2 + 0.5px);
+top: 206px;
+
+background: #5CBD94;
+
+}

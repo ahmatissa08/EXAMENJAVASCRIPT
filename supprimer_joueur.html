@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supprimer un joueur</title>
+    <script src="register_user.js" defer></script>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="desktop">
+    <h2>Supprimer un joueur</h2>
+    <div class="rectangle">
+    <form id="deletePlayerForm" action="#" method="post" onsubmit="return deletePlayer()">
+        <label for="email">Adresse email du joueur à supprimer :</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <input type="submit" value="Supprimer le joueur">
+    </form>
+    <div id="message"></div>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supprimer une question</title>
+    <script src="register_user.js" defer></script> 
+     <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="desktop"></div>
+   <h2>Supprimer une question</h2>
+    <div class="rectangle">
+    <form id="deleteQuestionForm" action="supprimer_question_backend.php" method="post">
+        <label for="questionId">ID de la question à supprimer :</label><br>
+        <input type="text" id="questionId" name="questionId" required><br><br>
+        <input type="submit" value="Supprimer la question">
+    </form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter une question</title>
+    <script src="register_user.js" defer></script> 
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="desktop">
+ 
+    <h2>Ajouter une question</h2>
+    <div class="rectangle4">
+    <form id="addQuestionForm" action="add_question_backend.php" method="post">
+        <label for="question">Question :</label><br>
+        <textarea id="question" name="question" rows="4" cols="50" required></textarea><br><br>
+        <label for="category">Catégorie :</label><br>
+        <input type="text" id="category" name="category" required><br><br>
+        <label for="option1">Option 1 :</label><br>
+        <input type="text" id="option1" name="option1" required><br><br>
+        <label for="option2">Option 2 :</label><br>
+        <input type="text" id="option2" name="option2" required><br><br>
+        <label for="option3">Option 3 :</label><br>
+        <input type="text" id="option3" name="option3" required><br><br>
+        <label for="answer">Réponse :</label><br>
+        <select id="answer" name="answer" required>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select><br><br>
+        <input type="submit" value="Ajouter la question">
+    </form>
+</div>
+</div>
+</body>
+</html>
